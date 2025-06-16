@@ -477,3 +477,33 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 85px;
+}
+
+
+
+/* Whatsapp button css */
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  background-color: #25D366;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+.whatsapp-button:hover {
+  transform: scale(1.1);
+}
+.whatsapp-button img {
+  width: 32px;
+  height: 32px;
+}
+
