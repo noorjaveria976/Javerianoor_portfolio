@@ -443,8 +443,8 @@
 }
 .img2{
     height: 350px;
-    background-image: url(../img/new.jpg);
-    background-position: center;
+    background-image: url(../img/figmaImg.png);
+    /* background-position: center; */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -465,7 +465,7 @@
 }
 .img5{
     height: 350px;
-    background-image: url(../img/dashboard.jpg);
+    background-image: url(../img/dashboard1.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
