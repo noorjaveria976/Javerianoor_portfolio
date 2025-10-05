@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="NavSection">
+    <nav class="navbar navbar-expand-lg bg-white shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/nav-logo2.svg" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Book Services
+              </a>
+              <!-- <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul> -->
+
+              <div class="dropdown-menu menu1">
+                <div class="d-flex">
+                  <div class="dropdown-item border-end">
+                    <ul class="dropdown-item">
+                      <li class="category-name">
+                        <a href="/self-publishing/"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Self-Publishing');"
+                          title="Self-Publishing">
+                          <h6>Self-Publishing</h6>
+                        </a><i class="icon-right-open"></i>
+                      </li>
+                      <li>
+                        <a href="/self-publishing/"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Self-Publishing Services');"
+                          title="Self-Publishing Services"><span>Self-Publishing Services</span></a>
+                      </li>
+                      <li>
+                        <a href="/self-publishing/book-genres-and-styles"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Book Styles');"
+                          title="Book Styles & Genres"><span>Book Styles & Genres</span></a>
+                      </li>
+                      <li>
+                        <a href="/self-publishing/amazon-book-publishing"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Amazon Publishing');"
+                          title="Amazon Publishing"><span>Amazon Publishing</span></a>
+                      </li>
+                      <li>
+                        <a href="/self-publishing/print-on-demand"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Print On Demand');"
+                          title="Print On Demand Distribution"><span>Print On Demand <br />
+                            Distribution</span></a>
+                      </li>
+                      <li>
+                        <a href="/self-publishing/bookshop-store"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Bookshop Store');"
+                          title="Sell Direct on Bookshop"><span>Sell Direct on Bookshop</span></a>
+                      </li>
+                      <li>
+                        <a href="/self-publishing/translation-services"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Translation');"
+                          title="Translation Services"><span>Translation Services</span></a>
+                      </li>
+                    </ul>
+                    <ul class="dropdown-item">
+                      <li class="category-name">
+                        <a href="/audiobooks"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Audiobooks');"
+                          title="Audiobooks">
+                          <h6>Audiobooks</h6>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="dropdown-item">
+                      <li class="category-name">
+                        <a href="/book-design"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Design');"
+                          title="Design">
+                          <h6>Design</h6>
+                        </a><i class="icon-right-open"></i>
+                      </li>
+                      <li>
+                        <a href="/book-design"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Design Services');"
+                          title="Design Services"><span>Design Services</span></a>
+                      </li>
+                      <li>
+                        <a href="/book-design/book-cover-design"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Book Cover Design');"
+                          title="Book Cover Design"><span>Book Cover Design</span></a>
+                      </li>
+                      <li>
+                        <a href="/book-design/book-formatting"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Interior Formatting Printed Books');"
+                          title="Interior Formatting for Printed Books"><span>Interior Formatting for <br />
+                            Printed Books</span></a>
+                      </li>
+                      <li>
+                        <a href="/book-design/ebook-formatting"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'eBook Interior Formatting');"
+                          title="Interior Formatting for eBooks"><span>Interior Formatting for <br />
+                            eBooks</span></a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown-item border-end">
+                    <ul class="dropdown-item">
+                      <li class="category-name">
+                        <a href="/book-printing"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Book Printing');"
+                          title="Book Printing">
+                          <h6>Book Printing</h6>
+                        </a><i class="icon-right-open"></i>
+                      </li>
+                      <li>
+                        <a href="/book-printing"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Book Printing Services');"
+                          title="Book Printing Services"><span>Book Printing Services</span></a>
+                      </li>
+                      <li>
+                        <a href="/book-printing/book-trim-sizes-and-binding-options"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Trim Size');"
+                          title="Trim Size, Binding, & Paper"><span>Trim Size, Binding, & Paper</span></a>
+                      </li>
+                      <li>
+                        <a href="/book-printing/paperback-book-printing"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Paperback');"
+                          title="Paperback Book Printing"><span>Paperback Book Printing</span></a>
+                      </li>
+                      <li>
+                        <a href="/book-printing/hardcover-book-printing"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Hardcover');"
+                          title="Hardcover Book Printing"><span>Hardcover Book Printing</span></a>
+                      </li>
+                      <li>
+                        <a href="/book-printing/yearbook-printing"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Yearbook Printing');"
+                          title="Yearbook Printing"><span>Yearbook Printing</span></a>
+                      </li>
+                      <li>
+                        <a href="/book-printing/destructive-book-scanning"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Destructive Book Scanning');"
+                          title="Destructive Book Scanning"><span>Destructive Book Scanning</span></a>
+                      </li>
+                    </ul>
+                    <ul class="dropdown-item" id="book-editing-list">
+                      <li class="category-name">
+                        <a href="/book-editing-services"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Editing');"
+                          title="Editing">
+                          <h6>Editing</h6>
+                        </a><i class="icon-right-open"></i>
+                      </li>
+                      <li>
+                        <a href="/book-editing-services"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Editing Services');"
+                          title="Editing Services"><span>Editing Services</span></a>
+                      </li>
+                      <li>
+                        <a href="/book-editing-services/line-editing-services"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Line Editing');"
+                          title="Line Editing"><span>Line Editing</span></a>
+                      </li>
+                      <li>
+                        <a href="/book-editing-services/copy-editing-services"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Copy Editing');"
+                          title="Copy Editing"><span>Copy Editing</span></a>
+                      </li>
+                      <li>
+                        <a href="/book-editing-services/proofreading-services"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Proofreading');"
+                          title="Proofreading"><span>Proofreading</span></a>
+                      </li>
+                      <li>
+                        <a href="/book-editing-services/query-letter-book-synopsis-review-and-editing"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Query Editing');"
+                          title="Query Letter &amp; Book Synopsis"><span>Query Letter &amp; Book <br />
+                            Synopsis</span></a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown-item">
+                    <ul class="dropdown-item">
+                      <li class="category-name">
+                        <a href="/ebooks"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'eBooks');"
+                          title="eBooks">
+                          <h6>eBooks</h6>
+                        </a><i class="icon-right-open"></i>
+                      </li>
+                      <li>
+                        <a href="/ebooks"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'eBooks Services');"
+                          title="eBook Services"><span>eBook Services</span></a>
+                      </li>
+                      <li>
+                        <a href="/ebooks/ebook-conversion"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'eBook publishing & conversion');"
+                          title="eBook Conversion"><span>eBook Conversion</span></a>
+                      </li>
+                      <li>
+                        <a href="/sell-your-book/ebook-distribution"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'eBook Distribution');"
+                          title="eBook Distribution"><span>eBook Distribution</span></a>
+                      </li>
+                      <li>
+                        <a href="/ebooks/fixed-layout-ebooks"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Fixed Layout');"
+                          title="Fixed Layout for eBooks"><span>Fixed Layout for eBooks</span></a>
+                      </li>
+                    </ul>
+                    <ul class="dropdown-item">
+                      <li class="category-name">
+                        <a href="/sell-your-book/book-marketing-services"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Marketing Services');"
+                          title="Marketing Services">
+                          <h6>Marketing Services</h6>
+                        </a><i class="icon-right-open"></i>
+                      </li>
+                      <li>
+                        <a href="/sell-your-book/book-marketing-services"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Marketing Services Overview');"
+                          title="Marketing Services Overview"><span>Marketing Services Overview</span></a>
+                      </li>
+                      <li>
+                        <a href="/sell-your-book/metadata-optimization"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Meta Data Optimization');"
+                          title="Book Metadata Optimization"><span>Book Metadata Optimization</span></a>
+                      </li>
+                      <li>
+                        <a href="/sell-your-book/ads-for-authors"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'AdsForAuthors');"
+                          title="Ads for Authors"><span>Ads for Authors</span></a>
+                      </li>
+                      <li>
+                        <a href="/sell-your-book/custom-bookmarks-and-posters"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Custom Bookmarks Posters');"
+                          title="Bookmarks &amp; Posters"><span>Bookmarks &amp; Posters</span></a>
+                      </li>
+                      <li>
+                        <a href="/sell-your-book/consultation-services"
+                          onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Consultation Services');"
+                          title="Consultation Services"><span>Consultation Services</span></a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown-item">
+                    <ul>
+                      <li>
+                        <img src="./images/icon-book-printing.svg" alt="" />
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Resources
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                BookShop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item ms-3">
+                  <a class="nav-link btn btn-danger">Pricing</a>
+                   <a href=""> <button class="btn btn-danger">Pricing</button> </a>
+                    
+                </li> -->
+            <li id="li-pricing">
+              <a class="link-pricing btn btn-danger" href="/pricing"
+                onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'navigation', 'Get Started');"
+                title="Pricing"><span>Pricing</span></a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" /> -->
+            <button class="btn" type="submit">Q Search</button>
+            <button class="btn" type="submit">1-877-961-6878</button>
+            <button class="btn" type="submit">Contact Us</button>
+            <button class="btn" type="submit">Login</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="bookbaby">
+    <p class="text-muted small">BookBaby &gt; eBooks</p>
+  </div>
+
+  <!-- Hero-section start -->
+  <div class="container-fluid bg-light ebook-section py-5 px-3">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Content -->
+        <div class="col-sm-12 col-md-8 col-lg-7 mb-3 mb-md-0 content mt-2">
+          <h1 class="text-black-mobile display-5 title">
+            Expert eBook publishing services
+          </h1>
+          <h2 class="fs-3 mt-4 subtitle extralineheight my-10">
+            Professional eBook conversion, design, and formatting all at an
+            affordable price.
+          </h2>
+          <a href="#" class="btn btn-center text-white rounded-pill shadow mb-5">Create Your eBook</a>
+        </div>
+        <div class="support">
+          <img src="./images/download" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Newsletter section start -->
+  <div class="container-fluid bg-black black mb-2">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4 border-end text-white">
+          <p>GET YOUR BOOKBABY RESOURCES:</p>
+        </div>
+        <div class="col-md-4 border-end">
+          <p><a href="" class="request"> REQUEST OUR FREE CATALOG </a></p>
+        </div>
+        <div class="col-md-4">
+          <p><a href="" class="request"> SIGN UP FOR OUR NEWSLETTER </a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Books section start -->
+  <div class="container-fluid py-5 mt-1">
+    <div class="container text-center">
+      <h2 class="titles fs-1">Everything your eBook needs is right here:</h2>
+
+      <div class="row ">
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 text-center book-item bgs-bookprint pb-5 px-3 ">
+          <a href="" class="text-black text-decoration-none">
+            <img src="./images/home-thumbs-amazonkdp.webp" class="img-responsive mb-2" alt="" style="width: 360px" />
+
+            <h3 class="fs-5 lh-base mb-1 bold-med">New! Amazon KDP Select</h3>
+            <p class="lh-sm">
+              All the benefits of Kindle Select Publishing, plus BookBaby’s
+              global network!
+            </p>
+          </a>
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 text-center book-item pb-5">
+          <a href="" class="text-black text-decoration-none">
+            <img src="./images/home-thumbs-ebookconversion2.webp" class="img-responsive mb-2" alt="" />
+
+            <h3 class="fs-5 lh-base mb-1 bold-med">eBook conversion</h3>
+            <p class="lh-sm">
+              Hands-on, expert eBook file conversion starting at just $99.
+            </p>
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 text-center book-item bgs-bookprint pb-5">
+          <a href="" class="text-black text-decoration-none">
+            <img src="./images/home-thumbs-edit.webp" class="img-responsive mb-2" alt="" />
+
+            <h3 class="fs-5 lh-base mb-1 bold-med">
+              Professional book editing
+            </h3>
+            <p class="lh-sm">
+              Fast and affordable editing by experienced book editors.
+            </p>
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 text-center book-item bgs-bookprint pb-5">
+          <a href="" class="text-black text-decoration-none">
+            <img src="./images/home-thumbs-design.webp" class="img-responsive mb-2" alt="" />
+
+            <h3 class="fs-5 lh-base mb-1 bold-med">
+              Professional eBook covers
+            </h3>
+            <p class="lh-sm">
+              Stand out on the digital shelf with a gorgeous eBook cover.
+            </p>
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 text-center book-item bgs-bookprint pb-5">
+          <a href="" class="text-black text-decoration-none">
+            <img src="./images/home-thumbs-fbinsta.webp" class="img-responsive mb-2" alt="" />
+
+            <h3 class="fs-5 lh-base mb-1 bold-med">
+              Facebook Ads for Authors
+            </h3>
+            <p class="lh-sm">
+              Promote your book to readers on the world’s largest social media
+              platform.
+            </p>
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 text-center book-item bgs-bookprint pb-5">
+          <a href="" class="text-black text-decoration-none">
+            <img src="./images/home-thumbs-fixedlayout.webp" class="img-responsive mb-2" alt="" />
+
+            <h3 class="fs-5 lh-base mb-1 bold-med">
+              Fixed layout for eBooks with many images
+            </h3>
+            <p class="lh-sm">
+              Perfect for children’s books, graphic novels, and cookbooks
+            </p>
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 text-center book-item bgs-bookprint pb-5">
+          <a href="" class="text-black text-decoration-none">
+            <img src="./images/home-thumbs-ebookdistribution2.webp" class="img-responsive mb-2" alt="" />
+
+            <h3 class="fs-5 lh-base mb-1 bold-med">eBook distribution</h3>
+            <p class="lh-sm">
+              Sell your eBook in the world’s biggest bookstores.
+            </p>
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 text-center book-item bgs-bookprint pb-5">
+          <a href="" class="text-black text-decoration-none">
+            <img src="./images/home-thumbs-bookshop.webp" class="img-responsive mb-2" alt="" />
+
+            <h3 class="fs-5 lh-base mb-1 bold-med">Direct-to-Reader Sales</h3>
+            <p class="lh-sm">
+              Set your own price and earn 85% of your retail sales with
+              Bookshop™.
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <!-- Grey line start -->
+      <div class="greyline hidden-xs"></div>
+
+      <!-- Author review -->
+      <div class="row">
+        <div class="hidden-xs col-sm-3 col-md-3 col-lg-3">
+          <img src="./images/testimonial-gino.webp" alt="" />
+        </div>
+
+        <div class="hidden-xs col-sm-9 col-md-9 col-lg-9 text-left text-center-mobile">
+          <blockquote>
+            <p class="quote-box text-start">
+              Authors with coding experience can convert eBooks themselves
+              with third-party software. But for most, turning a manuscript
+              into an eBook is a complex process where it’s easy to miss
+              steps, like verifying metadata. The only guaranteed way to make
+              a professional eBook is with expert help. We’ll manually
+              convert, check, and publish your eBook then send you a free
+              proof to approve our work before it’s published.
+            </p>
+            <footer class="quote-author">
+              <cite>Angelino Vazquez, <em>Conversion Team Leader</em></cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="greyline"></div>
+
+      <!-- Babybook choice section -->
+      <h2 class="titles fs-1 mt-4 mb-2">
+        Why BookBaby is your best choice for eBooks
+      </h2>
+      <p class="text-center" style="margin-bottom: 30px">
+        We make taking your journey from writer to author as easy as possible
+        with everything you need to make the eBook of your dreams. As a book
+        publishing platform, you can expect the following from us:
+      </p>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+          <img src="./images/ebooks-callout.webp" alt="" class="img-fluid" />
+        </div>
+
+        <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 text-start">
+          <ul class="disc-list mt-xs-20 mt-sm-20 ps-2 ms-4 mb-4">
+            <li>
+              <strong>We take zero commission. You keep 100% of your net eBook
+                sales from online retailers.</strong>
+            </li>
+            <li>
+              Amazon Kindle Direct Publishing + BookBaby. The best of both
+              worlds! Enjoy all the benefits of the Kindle Select Publishing
+              program, plus the opportunity to expand your eBook sales through
+              BookBaby’s industry-leading global distribution network.
+            </li>
+            <li>
+              Our file conversion professionals will convert your digital
+              document to the highest quality so that it’s enjoyable on Amazon
+              Kindle, Apple iPad, Barnes &amp; Noble Nook, smartphones,
+              tablets, and every popular eBook reader around the globe.
+            </li>
+            <li>
+              We are <strong><em>the only</em></strong> eBook self-publishing
+              company that sends you a finished ePub formatting proof of your
+              eBook for your review.
+            </li>
+            <li>
+              Self-publish eBooks and not only reach millions of readers on
+              Amazon, but also be able to sell your eBook on the largest eBook
+              retail network, introducing your book to more readers worldwide
+              than anyone else.
+            </li>
+            <li>
+              Fast to market. Your book will be ready to sell online in just a
+              day or two after proof approval.
+            </li>
+            <li>You keep control and retain 100% of your rights.</li>
+            <li>
+              Get paid every week. When your account reaches your set
+              threshold, we automatically pay you the following Monday.
+            </li>
+            <li>
+              Earn more royalties with your own sales page on Bookshop™—your
+              free one-stop shop to sell your eBook directly to your readers
+              while earning a whopping 85% of your retail sales.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="greyline"></div>
+
+      <!-- Ebook + video section -->
+      <h2 class="titles fs-1">What is an eBook?</h2>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-half text-start">
+          <p>
+            An eBook is an electronic version of a printed book that can
+            easily be read on a computer or handheld device, with properly
+            formatted text and images, no matter the size of the screen. The
+            text of the digital book is <strong><em>reflowable</em></strong> —
+            meaning when one screen is full, it will flow to the next — and
+            the images will resize to fit screen proportions.
+          </p>
+
+          <p>
+            eBooks are also the fastest way to self-publish your book
+            worldwide, making it easy for millions of readers to find, buy,
+            and enjoy your book online on retail sites like Amazon’s Kindle
+            Store, Barnes &amp; Noble’s NOOK Store, Apple Books, and many
+            more. With eBooks, readers can take hundreds, even thousands of
+            books on the go, and all on one device.
+          </p>
+
+          <p>
+            There are a lot of ways you can benefit from understanding
+            <a href="https://www.bookbaby.com/learn/how-to-make-an-ebook"
+              style="text-decoration-line: underline; color: #ad4d00">how to create an eBook</a>. Learn the basics by
+            watching our video and become a
+            self-published author with BookBaby today.
+          </p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-half embed-responsive embed-responsive-half">
+          <lite-youtube videotitle="What Is An eBook? BookBaby Explains eBooks &amp; Self-Publishing eBooks"
+            videoid="GZosR1twLJs"
+            title="Play: What Is An eBook? BookBaby Explains eBooks &amp; Self-Publishing eBooks"><noscript>
+              <iframe credentialless frameborder="0"
+                title="What Is An eBook? BookBaby Explains eBooks & Self-Publishing eBooks"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                src="https://www.youtube.com/embed/GZosR1twLJs?autoplay=1&start=0&null"></iframe></noscript><noscript>
+              <iframe credentialless frameborder="0"
+                title="What Is An eBook? BookBaby Explains eBooks & Self-Publishing eBooks"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                src="https://www.youtube.com/embed/GZosR1twLJs?autoplay=1&start=0&null"></iframe></noscript>
+            <a class="lite-youtube-fallback" href="https://www.youtube.com/watch?v=GZosR1twLJs">What Is An eBook?
+              BookBaby Explains eBooks &amp;
+              Self-Publishing eBooks</a>
+          </lite-youtube>
+        </div>
+      </div>
+
+      <div class="greyline"></div>
+
+      <!-- Compatibility across the board section -->
+      <h2 class="titles fs-1 mb-2">Compatibility across the board</h2>
+      <p class="mb-30 text-center">
+        Whether it’s your daughter’s iPad or your mom’s Kindle, our eBook
+        publishing experts will produce high-quality eBook files that are
+        viewable on ALL popular eReaders.
+      </p>
+      <img src="./images/ebooks-ereaders.webp" class="img-responsive center-block" alt="eReaders" title="eReaders" />
+      <a href="https://www.bookbaby.com/quoter/confighandler.aspx" class="btn btn-center btn-orange btn-lg"
+        role="button"
+        onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'ebooksB', 'hero-button-GetStarted'); return USERCONTROL.PREQUOTERS.FUNCTIONS.OpenPreQuoter(this, 'EBOOK');">Get
+        started</a>
+
+
+
+    </div>
+  </div>
+
+
+  <!-- Not sure where to start? -->
+  <div class="container-fluid mb-2 bgcolor">
+
+    <div class="container text-center">
+      <h2 class="titles">Not sure where to start?</h2>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
+          <a href="https://www.bookbaby.com/how-to-self-publish-a-book"
+            onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'ebooksB', 'Five Steps Guide');">
+            <img class="img-responsive center-block" src="./images/icon-5steps.svg"
+              alt="How to Self Publish a Book guide" title="How to Self Publish a Book guide" width="93"
+              height="68" /></a>
+          <h3 class="title-bold">Five steps is all it takes</h3>
+          <p class="plr-20">
+            All the essential information you need to go from manuscript to
+            market place.
+            <a style="text-decoration-line: underline; color: #ad4d00"
+              href="https://www.bookbaby.com/how-to-self-publish-a-book"
+              onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'ebooksB', 'Five Steps Guide');">Read on.</a>
+          </p>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
+          <a href="https://www.bookbaby.com/how-to-make-an-ebook"
+            onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'ebooksB', 'Book Genres &amp; Styles');">
+            <img class="img-responsive center-block" src="./images/icon-home-ebooks.svg" alt="Prepare your eBook"
+              title="Prepare your eBook" width="72" height="68" /></a>
+          <h3 class="title-bold">Prepare your eBook</h3>
+          <p class="plr-20">
+            Read these helpful tips for preparing your manuscript before you
+            make your eBook.
+            <a style="text-decoration-line: underline; color: #ad4d00"
+              href="https://www.bookbaby.com/how-to-make-an-ebook"
+              onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'ebooksB', 'Prepare your eBook');">Read on.</a>
+          </p>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
+          <a href="https://www.bookbaby.com/contact"
+            onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'ebooksB', 'Contact');">
+            <img class="img-responsive center-block" src="./images/icon-home-experts.svg"
+              alt="Prefer to speak to friendly BookBaby Publishing Specialist? Give us a call."
+              title="Prefer to speak to friendly BookBaby Publishing Specialist? Give us a call." width="100"
+              height="68" /></a>
+          <h3 class="title-bold">Real experts on call</h3>
+          <p class="plr-20">
+            Need some help? We’re here for you. Just call us at
+            1-877-961-6878 to talk to a real Publishing Specialist or get a
+            quote online.
+            <a style="text-decoration-line: underline; color: #ad4d00" href="https://www.bookbaby.com/contact"
+              onclick="AVL.UTILITIES.ANALYTICS.TriggerEventPush('Click', 'ebooksB', 'Contact');">Start here.</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- Scrollbar section start -->
+  <div class="container-fluid scrollbar py-5">
+
+    <div class="d-flex justify-content-between align-items-center flex-wrap pb-4">
+      <div class="d-flex align-items-center">
+        <div class="me-2">
+          <i class="ri-star-fill star-green"></i>
+          <i class="ri-star-fill star-green"></i>
+          <i class="ri-star-fill star-green"></i>
+          <i class="ri-star-fill star-green"></i>
+          <i class="ri-star-fill star-green"></i>
+        </div>
+        <div class="fs-4 fw-bold me-1">4.6</div>
+        <div class="text-muted">/ 5 • <strong>80</strong> reviews</div>
+      </div>
+      <div class="trustpilot-logo d-flex align-items-center">
+        <i class="ri-star-fill me-1"></i> Trustpilot
+      </div>
+    </div>
+
+    <!-- Scrollbar -->
+    <div class="container border-top rounded py-4 overflow-auto scroll">
+
+      <!-- Ratings Breakdown and Categories -->
+      <div class="row">
+        <!-- Left: Breakdown -->
+        <div class="col-md-6">
+          <h5 class="fw-bold mb-3">Reviews <span class="text-muted">80</span></h5>
+          <!-- Rating Rows -->
+          <div class="d-flex align-items-center mb-2">
+            <input class="form-check-input me-2" type="checkbox" disabled>
+            <span class="me-2">Excellent</span>
+            <div class="rating-bar flex-grow-1">
+              <div class="rating-bar-fill" style="width: 79%;"></div>
+            </div>
+            <span class="ms-2">79%</span>
+          </div>
+
+          <div class="d-flex align-items-center mb-2">
+            <input class="form-check-input me-2" type="checkbox" disabled>
+            <span class="me-2">Great</span>
+            <div class="rating-bar flex-grow-1">
+              <div class="rating-bar-fill" style="width: 13%;"></div>
+            </div>
+            <span class="ms-2">13%</span>
+          </div>
+
+          <div class="d-flex align-items-center mb-2">
+            <input class="form-check-input me-2" type="checkbox" disabled>
+            <span class="me-2">Average</span>
+            <div class="rating-bar flex-grow-1">
+              <div class="rating-bar-fill" style="width: 3%;"></div>
+            </div>
+            <span class="ms-2">3%</span>
+          </div>
+
+          <div class="d-flex align-items-center mb-2">
+            <input class="form-check-input me-2" type="checkbox" disabled>
+            <span class="me-2">Poor</span>
+            <div class="rating-bar flex-grow-1">
+              <div class="rating-bar-fill" style="width: 6%;"></div>
+            </div>
+            <span class="ms-2">6%</span>
+          </div>
+
+          <div class="d-flex align-items-center mb-2 text-muted">
+            <input class="form-check-input me-2" type="checkbox" disabled>
+            <span class="me-2">Bad</span>
+            <div class="rating-bar flex-grow-1">
+              <div class="rating-bar-fill" style="width: 0%; background-color: #ccc;"></div>
+            </div>
+            <span class="ms-2">0%</span>
+          </div>
+        </div>
+
+        <!-- Right: Categories -->
+        <div class="col-md-6">
+          <div class="mb-3">
+            <div class="fw-semibold">Quality</div>
+            <div class="d-flex align-items-center">
+              <div class="me-2">
+                <span class="star-icon"><i class="ri-star-fill"></i></span>
+                <span class="star-icon"><i class="ri-star-fill"></i></span>
+                <span class="star-icon"><i class="ri-star-fill"></i></span>
+                <span class="star-icon"><i class="ri-star-fill"></i></span>
+                <span class="star-icon"><i class="ri-star-fill"></i></span>
+              </div>
+              <div><strong>4.6</strong> / 5</div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <div class="fw-semibold">Value for money</div>
+            <div class="d-flex align-items-center">
+              <div class="me-2">
+                <span class="star-icon"><i class="ri-star-fill"></i></span>
+                <span class="star-icon"><i class="ri-star-fill"></i></span>
+                <span class="star-icon"><i class="ri-star-fill"></i></span>
+                <span class="star-icon"><i class="ri-star-fill"></i></span>
+                <span class="star-icon"><i class="ri-star-fill"></i></span>
+              </div>
+              <div><strong>4.5</strong> / 5</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- Individual Review 1 -->
+      <div class="mt-4">
+        <div class="fw-semibold">Drew Chenault</div>
+        <div class="text-muted mb-2">June 3</div>
+        <div class=" mb-2">
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="ms-2 text-muted">More details <i class="ri-arrow-down-s-line"></i></span>
+        </div>
+        <p>simple and relatively inexpensive.</p>
+        <div class="verified-badge mt-2"><i class="ri-shield-check-line"></i> Verified, collected by BookBaby</div>
+      </div>
+
+      <div class="review-card">
+        <strong>Jason Fox</strong>, <span class="review-date">May 13</span>
+        <div class="d-flex align-items-center mt-2">
+          <div class=" mb-2">
+            <span class="star-icon"><i class="ri-star-fill"></i></span>
+            <span class="star-icon"><i class="ri-star-fill"></i></span>
+            <span class="star-icon"><i class="ri-star-fill"></i></span>
+            <span class="star-icon"><i class="ri-star-fill"></i></span>
+            <span class="star-icon"><i class="ri-star-fill"></i></span>
+            <span class="ms-2 text-muted">More details <i class="ri-arrow-down-s-line"></i></span>
+          </div>
+
+        </div>
+        <p class="mt-2">Excellent format, conversion and distribution.</p>
+        <div class="verified"><i class="ri-check-double-line"></i> Verified, collected by BookBaby</div>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="review-card">
+        <strong>Amber</strong>, <span class="review-date">April 18</span>
+        <div class=" mb-2">
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="ms-2 text-muted">More details <i class="ri-arrow-down-s-line"></i></span>
+        </div>
+        <p class="mt-2">
+          Very happy! I will use BookBaby eBook services for my future projects.
+          I would not hesitate to try their print services as well, given my exceptional experience with them
+          <span class="emoji">😍</span>
+        </p>
+        <div class="verified"><i class="ri-check-double-line"></i> Verified, collected by BookBaby</div>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="review-card">
+        <strong>Eric Guay</strong>, <span class="review-date">March 21</span>
+        <div class=" mb-2">
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="ms-2 text-muted">More details <i class="ri-arrow-down-s-line"></i></span>
+        </div>
+        <p class="mt-2">
+          Creating the eBook was super easy and fast! I recommend doing all the work on the print version first,
+          so it's a no-brainer. Thanks, BookBaby!
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <img src="https://images.trustpilot.com/stars/5stars.svg" alt="Stars" width="120">
+
+        </div>
+        <div class="verified"><i class="ri-check-double-line"></i> Verified, collected by BookBaby</div>
+      </div>
+
+      <!-- Review 4 -->
+      <div class="review-card">
+
+        <h6><strong>Ivan</strong>, October 11</h6>
+        <div class=" mb-2">
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="ms-2 text-muted">More details <i class="ri-arrow-down-s-line"></i></span>
+        </div>
+        <p class="review-text">Great service 👍</p>
+        <p class="verified"><i class="ri-checkbox-circle-line"></i> Verified, collected by BookBaby</p>
+      </div>
+
+      <!-- Review 5 -->
+      <div class="review-card">
+
+        <h6><strong>Delbert York</strong>, June 9</h6>
+        <div class=" mb-2">
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="ms-2 text-muted">More details <i class="ri-arrow-down-s-line"></i></span>
+        </div>
+        <p class="review-text">
+          BookBaby is the best and most affordable way I know of for independent authors to have their books published
+          and distributed.
+        </p>
+        <p class="verified"><i class="ri-checkbox-circle-line"></i> Verified, collected by BookBaby</p>
+      </div>
+
+      <!-- Review 1 -->
+      <div class="review-card">
+        <h6><strong>Sandra Hartsell</strong>, May 18</h6>
+        <div class=" mb-2">
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="ms-2 text-muted">More details <i class="ri-arrow-down-s-line"></i></span>
+        </div>
+        <p class="review-text">
+          This is a great product. It distributes your ebooks and published books to Barnes and Nobles
+          and other book distributors. Amazon was so behind 15 years ago and you never had a chance
+          too get your book distributed to other book stores.
+        </p>
+        <p class="verified"><i class="ri-checkbox-circle-line"></i> Verified, collected by BookBaby</p>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="review-card">
+        <h6><strong>Dana zoe Gest</strong>, February 5</h6>
+        <div class=" mb-2">
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="ms-2 text-muted">More details <i class="ri-arrow-down-s-line"></i></span>
+        </div>
+        <p class="review-text">Thank you so much.</p>
+        <p class="verified"><i class="ri-checkbox-circle-line"></i> Verified, collected by BookBaby</p>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="review-card">
+        <h6><strong>Pamela Gembica</strong>, January 24</h6>
+        <div class=" mb-2">
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="ms-2 text-muted">More details <i class="ri-arrow-down-s-line"></i></span>
+        </div>
+        <p class="review-text">Good instructions, prompt replies; great website; deliver what they promise. Thanks!</p>
+        <p class="verified"><i class="ri-checkbox-circle-line"></i> Verified, collected by BookBaby</p>
+      </div>
+
+
+
+      <!-- Review 3 -->
+      <div class="review-card">
+        <h6><strong>Pamela Gembica</strong>, January 24</h6>
+        <div class=" mb-2">
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="ms-2 text-muted">More details <i class="ri-arrow-down-s-line"></i></span>
+        </div>
+        <p class="review-text">Good instructions, prompt replies; great website; deliver what they promise. Thanks!</p>
+        <p class="verified"><i class="ri-checkbox-circle-line"></i> Verified, collected by BookBaby</p>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="card border-0 shadow-sm p-3">
+        <div class="d-flex justify-content-between">
+          <div>
+            <strong>Nirmal Grossbart</strong>, <span class="text-muted">January 18</span>
+          </div>
+          <div class="text-muted">More details <i class="ri-arrow-down-s-line"></i></div>
+        </div>
+
+        <div class="mt-2 mb-2">
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+        </div>
+
+        <p>
+          This was the fifth time I used BookBaby to create and distribute our books.
+          Every time has been super easy and smooth. This last time, I made a mistake
+          and they jumped in and fixed for me without comment.
+        </p>
+
+        <div class="verified-text">
+          <i class="ri-check-double-line"></i> Verified, collected by BookBaby
+        </div>
+      </div>
+
+      <div class="load-more">
+        Load more reviews
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Satisfaction Guaranteed -->
+  <div class="container-fluid bgblue">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+          <a href="https://www.bookbaby.com/guarantee">
+            <img src="./images/guarantee181.svg" alt="100% Satisfaction Guarantee" width="160" height="160"
+              class="img-responsive center-block"></a>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 text-left text-center-xs">
+          <h2 class="titles fs-1 mb-2">100% Satisfaction Guaranteed</h2>
+          <p class="bodyplus2 mt-10">If you're not thrilled with our work—whether it's eBook conversion, cover design,
+            or print quality—we'll work with you until you are. That's our publishing promise to you.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- last section -->
+  <div class="container-fluid bg-light faq">
+    <div class="container pt-5 pb-5 show-overflow">
+      <h2 class="titles light mt-0 mb-4">Frequently Asked Questions</h2>
+
+      <!-- Accordian 1 -->
+      <div class="accordion pb-4" id="faqAccordion">
+
+        <!-- Accordion Item 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              Do eBooks Need a Fixed Layout?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              <p>It all depends on what type of eBook you’re writing. <a
+                  href="https://www.bookbaby.com/ebooks/fixed-layout-ebooks">Fixed Layout files</a> allow your eBook to
+                display images and text the same way across different eBook readers...</p>
+              <p><a href="https://www.bookbaby.com/contact">Contact us</a> today for more information and to get
+                started!</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <!-- Accordian 2 -->
+      <div class="accordion pb-4" id="faqAccordion">
+
+        <!-- Accordion Item 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              How Can I Publish an eBook?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              <p>Publishing an eBook is simple when you work with BookBaby. We have every self-publishing service you
+                need...</p>
+              <p>Learn more today by contacting us at <a href="tel:18779616878">1-877-961-6878</a> or <a
+                  href="https://www.bookbaby.com/pricing">save a quote</a>.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <!-- Accordian 3 -->
+      <div class="accordion pb-4" id="faqAccordion">
+
+        <!-- Accordion Item 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              How Do I Sell My eBook?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              <p>Selling your eBook has never been easier than with BookBaby's <a
+                  href="https://www.bookbaby.com/sell-your-book/book-marketing-services">marketing services</a>...</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <!-- Accordian 4 -->
+      <div class="accordion pb-4" id="faqAccordion">
+
+        <!-- Accordion Item 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Where Can You Buy an eBook?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              <p>eBooks are becoming more and more popular, and can be bought from Amazon, Google, Kindle, Barnes &amp;
+                Noble, etc...</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+  <footer class="bg-dark text-white pt-5">
+    <div class="container text-center">
+
+      <!-- TOP ROW SPLIT IN 2 COLUMNS -->
+      <div class="row">
+        <!-- Left Column: Join Over 200,000... -->
+        <div class="col-md-6 text-center text-md-start mb-4">
+          <h2 class="fw-bold">Join over 200,000 self-published authors</h2>
+          <p>Subscribe to our weekly newsletter to receive articles on writing, author marketing, and the business of
+            self-publishing.</p>
+
+          <!-- Newsletter form -->
+          <div class="row align-items-center">
+            <div class="col-8">
+              <input type="email" class="form-control" placeholder="Email Address">
+            </div>
+            <div class="col-4">
+              <input type="submit" name="ctl00$ctl00$ctl20$btnSignUp" value="Sign me up!"
+                onclick="return AVL.RESPONSIVEFORM.VALIDATION.POSTBACKS.ValidateInputs(event, $('#newsletter-form'), null, true);"
+                id="ctl20_btnSignUp" title="Sign up" class="btn btn-center btn-orange btn-lg py-0 text-white"
+                style="height: 50px;">
+            </div>
+          </div>
+
+
+        </div>
+
+        <!-- Right Column: Links and Icons -->
+        <div class="col-md-6 text-center text-md-start">
+          <div class="row pb-3">
+            <div class="col-4 d-flex flex-column">
+              <a href="" class="text-white mx-2 foot-link"> Self-Publishing</a>
+              <a href="" class="text-white mx-2 foot-link"> Book Printing</a>
+              <a href="" class="text-white mx-2 foot-link"> eBooks</a>
+              <a href="" class="text-white mx-2 foot-link"> Audiobooks</a>
+            </div>
+            <div class="col-4 d-flex flex-column">
+              <a href="" class="text-white mx-2 foot-link"> Template</a>
+              <a href="" class="text-white mx-2 foot-link"> Editing</a>
+              <a href="" class="text-white mx-2 foot-link"> Book Design</a>
+              <a href="" class="text-white mx-2 foot-link"> Sell Your Book</a>
+            </div>
+            <div class="col-4 d-flex flex-column">
+              <a href="#" class="text-white mx-2 foot-link">Help</a>
+              <a href="#" class="text-white mx-2 foot-link">Learn</a>
+              <a href="#" class="text-white mx-2 foot-link">Pricing</a>
+            </div>
+          </div>
+
+          <div class="mt-5 d-flex">
+            <div class="ico text-center">
+              <a href="#"><i class="ri-facebook-circle-fill fs-3 hovIcon mx-2"></i></a>
+            </div>
+            <div class="ico text-center">
+              <a href="#"><i class="ri-twitter-x-fill fs-3 mx-2 hovIcon"></i></a>
+            </div>
+            <div class="ico">
+              <a href="#"><i class="ri-instagram-fill fs-3 mx-2 hovIcon"></i></a>
+            </div>
+            <div class="ico">
+              <a href="#"><i class="ri-pinterest-fill fs-3 mx-2 hovIcon"></i></a>
+            </div>
+            <div class="ico">
+              <a href="#"><i class="ri-youtube-fill fs-3 mx-2 hovIcon"></i></a>
+            </div>
+            <div class="ico">
+              <a href="#"><i class="ri-wordpress-fill fs-3 mx-2 hovIcon"></i></a>
+            </div>
+            <div class="ico">
+              <a href="#"><i class="ri-linkedin-box-fill fs-3 mx-2 hovIcon"></i></a>
+            </div>
+            <div class="ico">
+              <a href="#"><i class="ri-rss-fill fs-3 mx-2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- The rest of your footer (logo, links, support, trustpilot, etc.) stays same as before -->
+
+
+
+      <!-- line -->
+      <hr class="border-light mt-5">
+
+      <!-- Logo and Links -->
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mb-3">
+        <img src="./images/footer-logo.svg" alt="BookBaby logo" class="mb-3 mb-md-0">
+
+        <div class="text-center">
+          <a href="#" class="text-white mx-2 foot-link">Sitemap</a>
+          <a href="#" class="text-white mx-2 foot-link">Careers</a>
+          <a href="#" class="text-white mx-2 foot-link">Privacy Policy</a>
+          <a href="#" class="text-white mx-2 foot-link">Terms of Service</a>
+          <a href="#" class="text-white mx-2 foot-link">Return Policy</a>
+          <a href="#" class="text-white mx-2 foot-link">Cookie Preferences</a>
+        </div>
+      </div>
+
+      <!-- Contact Info -->
+      <div class=" small text-end">
+        <p class="mb-0">© 2025 Bookbaby · 7905 N. Crescent Blvd, Pennsauken, NJ 08110 · 1-877-961-6878 ·
+          info@bookbaby.com · Made in the U.S.A. 🇺🇸</p>
+      </div>
+
+      <hr class="border-light">
+
+      <!-- Trustpilot -->
+      <div class="d-flex flex-column flex-md-row justify-content-center align-items-center">
+        <span class="me-2">Excellent</span>
+        <span class="mt-2 mb-2 px-2">
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+          <span class="star-icon"><i class="ri-star-fill"></i></span>
+        </span>
+
+        <span>5,332 reviews on</span>
+        <div><i class="ri-star-fill text-success ps-2"></i></div>
+        <span>Trustpilot</span>
+      </div>
+
+
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
